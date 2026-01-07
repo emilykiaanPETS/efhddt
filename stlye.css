@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fafafa;
+  color: #1a1a1a;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+  background: white;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+}
+
+.cta {
+  text-decoration: none;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.hero {
+  height: 90vh;
+  background: url("images/hero.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.hero-text {
+  max-width: 520px;
+  background: rgba(255,255,255,0.9);
+  padding: 40px;
+}
+
+.hero h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: black;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.trust,
+.testimonials {
+  padding: 80px 60px;
+  background: #f3f1ee;
+}
+
+.puppies,
+.process {
+  padding: 80px 60px;
+}
+
+.puppy-grid,
+.testimonial-grid,
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.puppy-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 30px;
+  line-height: 1.6;
+}
+
+.final-cta {
+  padding: 100px 20px;
+  background: #1a1a1a;
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background: white;
+}
+
+/* FLOATING WHATSAPP */
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #25D366;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
